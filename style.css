@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #22577A;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+    gap: 5px;
+   
+   
+}
+.header{
+    width: 100vw;
+    height: 5px;
+    display: flex;
+    justify-content: center;
+}
+#main-text{
+    margin-top: 10rem;
+    color: white;
+    font-size: 8vmin;
+   display: inline-block;
+    white-space: nowrap;
+    font-family: "Tektur", sans-serif;
+    border-right: 2px soild white;
+    animation: typing 4s steps(30, end), blink 0.5s step-end infinite alternate;
+   
+}
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 5ch;
+    }
+}
+#main-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 8rem;
+}
+#search{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #38A3A5;
+    color: #C7F9CC;
+    text-align: center;
+
+}
+#search::placeholder{
+    color: #C7F9CC;
+}
+
+#shloka{
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #38A3A5;
+    color: #C7F9CC;
+    text-align: center;
+}
+#shloka::placeholder{
+    color: #C7F9CC;
+}
+.get{
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #38A3A5;
+    color: #C7F9CC;
+}
+.sanskrit{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 5px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #57CC99;
+    text-align: center;
+    
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #57CC99;
+    text-align: center;
+}
+h1{
+    color: black;
+    font-size: medium;
+}
+#text{
+    color: black;
+}
